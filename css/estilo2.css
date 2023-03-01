@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+body {
+    background-color:#b3a5a5a8;
+    font-family: open, sans-serif;
+    margin: 0;
+}
+.degrade {
+    background: linear-gradient(180deg, #288870, rgba(180, 172, 172, 0.37));
+    margin: 0px 0px 200px 80px;
+    max-width: 100%;
+    height: auto;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 50px 50px 0px 50px;
+}
+.intro {
+    display: block;
+    margin: auto;
+}
+.nombres {
+    font-family: "Roboto";
+    font-weight:600;
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+.bajada {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.descripcion {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.icono {
+    max-width: 30px;
+    padding: 20px 10px 30px 0px;
+}
+.perfil {
+    max-width: 100%;
+    height: auto;
+}
+.caja {
+    background: linear-gradient(180deg, #288870, rgb(180, 172, 172, 0.37));
+    border-radius: 20px;
+    height: auto;
+    max-width: 100%;
+    padding: 50px;
+    margin: 50px 20px 200px 80px;
+}
+.titulo {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 25px;
+    margin:0;
+    
+}
+.text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+.botonera {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+.boton {
+    width: 50px;
+    display: block;
+    padding: 5px;
+}
+.vacio {
+    max-width: 1000%;
+    height: 200px;
+    margin: 200px;
+}
